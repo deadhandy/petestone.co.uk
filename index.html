@@ -4,11 +4,45 @@
 		<title>petestone.co.uk</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<style>
+			body {background-image:url('bg.png')}
+			.card { 
+				width:350px;
+			    height:115px;
+			    border:1px solid #aaa;padding:20px;background-color:#fff;
+
+			    position:absolute;
+			    top:0;bottom:0;left:0;right:0;
+			    margin:auto;
+			    -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+			}
+			.avatar {width:105px;height:105px;float:left;margin-right:20px}
+			h3 {margin:0;margin-top:-8px;font-family:'Kaushan Script',cursive;}
+			.blurb {margin:1px 0 5px 0}
+			.blurb, .links {font-family:'Droid Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:10pt}
+			.links a {margin-right:15px}
+			a:hover {text-decoration:none}
+			.gh{color:#555}
+			
+			@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+				body {background-image:url('bg@2x.png');background-size:100px 100px;}
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Hello world!</h1>
 		
-		
+		<div class="card">
+			<img src="8bitpete.png" class="img-polaroid avatar">
+			<h3>Hi, I'm Pete Stone</h3>
+			<div class="blurb">Proud dad, tech addict, very amateur photographer and software project manager. In that order.</div>
+			<div class="links">
+				<a href="https://twitter.com/petestone"><i class="icon-twitter"></i> petestone</a>
+				<a class="gh" href="https://github.com/deadhandy/"><i class="icon-github-sign"></i> deadhandy</a>
+			</div>
+		</div>
 		
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
