@@ -3,15 +3,15 @@
 	<head>
 		<title>petestone.co.uk</title>
 		<meta name=viewport content="width=600">
-		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+		<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<style>
 			body {background-image:url('bg.png')}
-			.card { 
-				width:350px;
-			    height:115px;
+			.buscard{ 
+				width:390px;
+			    height:145px;
 			    border:1px solid #aaa;padding:20px 15px 20px 20px;background-color:#fff;
 
 			    position:absolute;
@@ -19,8 +19,8 @@
 			    margin:auto;
 			    -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
 			}
-			.avatar {width:105px;height:105px;float:left}
-			.therest {width:220px;float:right}
+			.avatar {width:105px;height:105px}
+			.therest {width:220px}
 			h3 {margin:0;margin-top:-8px;font-family:'Kaushan Script',cursive;}
 			.blurb {margin:1px 0 5px 0}
 			.blurb, .links {font-family:'Droid Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:10pt}
@@ -35,20 +35,20 @@
 	</head>
 	<body>
 		
-		<div class="card">
-			<img src="8bitpete.png" class="img-polaroid avatar">
-			<div class="therest">
+		<div class="buscard">
+			<img src="8bitpete.png" class="img-thumbnail float-left avatar">
+			<div class="therest float-right">
 				<h3>Hi, I'm Pete...</h3>
 				<div class="blurb">Proud dad, tech addict, very amateur photographer and software project manager. In that order.</div>
 				<div class="links">
-					<a href="https://twitter.com/petestone"><i class="icon-twitter"></i> petestone</a>
-					<a class="gh" href="https://github.com/deadhandy/"><i class="icon-github-sign"></i> deadhandy</a>
+					<a href="https://twitter.com/petestone"><i class="fab fa-twitter-square"></i> petestone</a>
+					<a class="gh" href="https://github.com/deadhandy/"><i class="fab fa-github-square"></i> deadhandy</a>
 				</div>
 			</div>
 		</div>
 		
-		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-39521134-1']);
